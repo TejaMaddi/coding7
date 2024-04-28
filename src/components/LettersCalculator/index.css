@@ -1,0 +1,79 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.i1 {
+  height: 180px;
+  width: 210px;
+}
+.image-container {
+  text-align: center;
+}
+
+.h1 {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+.label {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.form {
+  outline: none;
+  border: 1px solid #ffffff;
+  color: #e4e7eb;
+  padding: 6px;
+  width: 80%;
+  border-radius: 6px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+.p1 {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  color: #219a6f;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .image-container{
+    order:1;
+  }
+  .i1{
+    height:305px;
+    width: 350px;
+  }
+  .h1{
+    font-size: 40px;
+    text-align: left;
+  }
+  .label{
+    font-size: 25px;
+  }
+  .form{
+    height:40px;
+    font-size: 20px;
+  }
+  .p1{
+    font-size: 29px;
+  }
+}
